@@ -1,5 +1,8 @@
 import matplotlib.pyplot as plt
 
+print("Input n:")
+n = int(input())
+
 def collatz(n):
   if (n == 1):
     return 1
@@ -20,4 +23,4 @@ def main(n):
   plt.show()
   exit()
   
-main(1000)
+main(n)
